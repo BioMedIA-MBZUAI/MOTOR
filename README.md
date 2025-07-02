@@ -10,7 +10,7 @@ Mai A. Shaaban [<img src='img/ORCIDiD_icon64x64.png' width='15'>](https://orcid.
 
 <img src='img/ssmc_logo.png' width='100'> **Sheikh Shakhbout Medical City, Abu Dhabi, UAE**
 
-[![Static Badge](https://img.shields.io/badge/Paper-Link-yellowgreen?link=https%3A%2F%2Fzenodo.org%2Frecords%2F10104139)](TBD)
+[![Static Badge](https://img.shields.io/badge/Paper-Link-yellowgreen?link=https%3A%2F%2Fzenodo.org%2Frecords%2F10104139)](https://www.arxiv.org/abs/2506.22900)
 [![python](https://img.shields.io/badge/Python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![pytorch](https://img.shields.io/badge/PyTorch-2.3.1-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org)
 
@@ -34,29 +34,34 @@ Mai A. Shaaban [<img src='img/ORCIDiD_icon64x64.png' width='15'>](https://orcid.
 ## :hammer_and_wrench: Install  
 * Clone this repository
 
-  ```git clone https://github.com/Mai-CS/MOTOR.git```
-  
-  ```cd MOTOR```
+  ```shell
+  git clone https://github.com/Mai-CS/MOTOR.git
+  cd MOTOR
+  ```
   
 * Install dependencies: (we assume GPU device / cuda available):
   
-  ```source install.sh```  
+  ````shell
+  source install.sh
+  ```  
 
 Now, you should be all set.
 
-## :arrow_forward: Demo  
+## :arrow_forward: Usage  
 
 * Generate grounded reports
 
-  ```cd models/```
-  
-  Run ```python caption_maira.py --dataset_name "med-diff-vqa"```
+  ```shell
+  cd models/
+  python caption_maira.py --dataset_name "med-diff-vqa"
+  ```
 
 * Generate answers
 
-  ```cd ..```
-
-  ```source run_MOTOR.sh``` 
+  ```shell
+  cd ..
+  source run_MOTOR.sh
+  ``` 
 
 ## :luggage: Models  
 
@@ -66,7 +71,19 @@ Now, you should be all set.
 
 [togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2](https://huggingface.co/togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2)
 
+[razent/SciFive-large-Pubmed_PMC-MedNLI](https://huggingface.co/razent/SciFive-large-Pubmed_PMC-MedNLI)
+
+
 
 ## :black_nib: Citation
-
-TBD
+```bibtex
+@article{shaaban2025motor,
+      title={MOTOR: Multimodal Optimal Transport via Grounded Retrieval in Medical Visual Question Answering}, 
+      author={Mai A. Shaaban and Tausifa Jan Saleem and Vijay Ram Papineni and Mohammad Yaqub},
+      year={2025},
+      eprint={2506.22900},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.22900}, 
+}
+```
