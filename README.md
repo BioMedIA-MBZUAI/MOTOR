@@ -65,13 +65,13 @@ Now, you should be all set.
 
 ## :luggage: Models  
 
-[microsoft/maira-2](https://huggingface.co/microsoft/maira-2)
+* [microsoft/maira-2](https://huggingface.co/microsoft/maira-2)
 
-[microsoft/llava-med-v1.5-mistral-7b](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b)
+* [microsoft/llava-med-v1.5-mistral-7b](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b)
 
-[togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2](https://huggingface.co/togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2)
+* [togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2](https://huggingface.co/togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2)
 
-[razent/SciFive-large-Pubmed_PMC-MedNLI](https://huggingface.co/razent/SciFive-large-Pubmed_PMC-MedNLI)
+* [razent/SciFive-large-Pubmed_PMC-MedNLI](https://huggingface.co/razent/SciFive-large-Pubmed_PMC-MedNLI)
 
 
 
