@@ -41,7 +41,7 @@ Mai A. Shaaban [<img src='img/ORCIDiD_icon64x64.png' width='15'>](https://orcid.
   
 * Install dependencies: (we assume GPU device / cuda available):
   
-  ````shell
+  ```shell
   source install.sh
   ```  
 
