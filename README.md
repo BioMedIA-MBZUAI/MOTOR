@@ -78,13 +78,14 @@ Now, you should be all set.
 
 ## :black_nib: Citation
 ```bibtex
-@article{shaaban2025motor,
-      title={MOTOR: Multimodal Optimal Transport via Grounded Retrieval in Medical Visual Question Answering}, 
-      author={Mai A. Shaaban and Tausifa Jan Saleem and Vijay Ram Papineni and Mohammad Yaqub},
-      year={2025},
-      eprint={2506.22900},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.22900}, 
+@InProceedings{ShaMai_MOTOR_MICCAI2025,
+        author = { Shaaban, Mai A. and Saleem, Tausifa Jan and Papineni, Vijay Ram Kumar and Yaqub, Mohammad},
+        title = { { MOTOR: Multimodal Optimal Transport via Grounded Retrieval in Medical Visual Question Answering } },
+        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+        year = {2025},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 15965},
+        month = {September},
+        page = {467 -- 477}
 }
 ```
